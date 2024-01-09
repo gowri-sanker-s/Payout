@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overview-head{
+    margin: 2rem;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.overview-head button{
+    padding: 0 0.5rem;
+    background-color: rgba(255, 255, 255);
+    color: rgba(120,120,120);
+    border: 1px solid rgba(120,120,120);
+    border-radius: 5px;
+    height: 2rem;
+}
+.big-box{
+    margin: 2rem;
+}
+.boxes{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    padding: 1.6rem;
+    height: 7rem;
+    width: 49%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(195, 195, 195, 0.7);
+}
+.box-1 p{
+    color: rgba(120,120,120);
+
+}
+.box-1 h2{
+    font-size: 32px;
+}
+

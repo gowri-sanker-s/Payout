@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    height: 102%;
+    width: 15rem;
+    background-color: rgb(30, 38, 64);
+    color: rgb(179, 179, 179);
+    position: relative;
+    overflow-x: hidden;
+    
+}
+.side-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 5px;
+    width: 15rem;
+    align-items:center;
+    border: 1px solid black;
+}
+.arrow{
+    color: white;
+    margin-right: 10px;
+}
+.profile{
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+}
+.profile-img{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.name{
+    color: white;
+}
+.visit{
+    font-size: 15px;
+}
+.side-contents ul{
+   list-style-type: none;
+} 
+.side-contents ul li{
+    color: rgb(210, 212, 217);
+    border-radius: 5px;   
+    height: 2.2rem;
+    line-height: 2.2;
+    margin: 1.5vh 0.5rem;
+    padding: 0 1rem;
+}
+.side-contents ul li:nth-child(7){
+    background-color: rgba(52,59,83);
+    color: white;
+}
+
+.side-footer{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(53,60,83);
+    border-radius: 5px;
+    width: 12rem;
+    height: 3rem;
+    padding: 0.4rem ;
+}
+.credit{
+    font-size: 16px;
+} 
+.credit-no{
+    font-size: 18px;
+    color: white;
+}
+.icon-main{
+    margin-right: 12px  ;
+}
+.wallet-icon{
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background-color: rgba(73, 79, 100);
+}
+.content-footer{
+    display: flex;
+    align-items: center;
+}
+.avail-cre{
+    margin-left: 12px;
+}
